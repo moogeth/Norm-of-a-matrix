@@ -83,7 +83,26 @@ print(f"{l2_norm:.2f}")
 
 # Infinity Norm of a Matrix
 
+'''
+Program to find 2-norm of a matrix.
+Developed by: Moogethshivan G G 
+RegisterNumber: 212225040259
+'''
 
+
+A = eval(input())
+
+max_sum = 0
+
+for row in A:
+    row_sum = 0
+    for val in row:
+        row_sum += abs(val)
+
+    if row_sum > max_sum:
+        max_sum = row_sum
+
+print(f"{max_sum:.2f}")
 
 
 
