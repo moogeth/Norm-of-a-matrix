@@ -109,19 +109,16 @@ print(f"{max_sum:.2f}")
 ```
 ## Output:
 ### 1-Norm of a Matrix
-<br>
-<br>
-<br>
+<img width="1920" height="1080" alt="Screenshot (45)" src="https://github.com/user-attachments/assets/181cbe81-01d1-41f2-8147-e4401c60a705" />
+
 
 ### 2-Norm of a Matrix
-<br>
-<br>
-<br>
+<img width="1920" height="1080" alt="Screenshot (46)" src="https://github.com/user-attachments/assets/b9e6c34a-7506-442e-94e5-04bbb62b0912" />
+
 
 ### Infinity Norm of a Matrix
-<br>
-<br>
-<br>
+<img width="1920" height="1080" alt="Screenshot (47)" src="https://github.com/user-attachments/assets/15498624-875e-43b0-80db-edc5f301db18" />
+
 
 ## Result
 Thus the program for 1-norm, 2-norm and Infinity norm of a matrix are written and verified.
