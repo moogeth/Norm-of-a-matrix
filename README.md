@@ -14,7 +14,30 @@ To write a program to find the 1-norm, 2-norm and infinity norm of the matrix an
 # Developed By:
 # 1-Norm of a Matrix
 
+'''
+devoloped by : Moogethsivan G G 
 
+reg no: 212225040259
+'''
+
+
+
+A = eval(input())
+
+rows = len(A)
+cols = len(A[0])
+
+max_sum = 0
+
+for j in range(cols):
+    col_sum = 0
+    for i in range(rows):
+        col_sum += abs(A[i][j])
+
+    if col_sum > max_sum:
+        max_sum = col_sum
+
+print(f"{max_sum:.2f}")
 
 
 # 2-Norm of a Matrix
