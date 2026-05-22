@@ -41,7 +41,43 @@ print(f"{max_sum:.2f}")
 
 
 # 2-Norm of a Matrix
+'''
+Program to find 2-norm of a matrix.
+Developed by: Moogethshivan G G 
+RegisterNumber: 212225040259
+'''
+import math
 
+A = eval(input())
+
+
+AT = list(zip(*A))
+
+
+B = []
+for i in range(len(AT)):
+    row = []
+    for j in range(len(A[0])):
+        s = 0
+        for k in range(len(A)):
+            s += AT[i][k] * A[k][j]
+        row.append(s)
+    B.append(row)
+
+
+a = B[0][0]
+b = B[0][1]
+c = B[1][0]
+d = B[1][1]
+
+trace = a + d
+det = a * d - b * c
+
+lambda_max = (trace + math.sqrt(trace**2 - 4 * det)) / 2
+
+l2_norm = math.sqrt(lambda_max)
+
+print(f"{l2_norm:.2f}")
 
 
 
